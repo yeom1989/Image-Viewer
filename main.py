@@ -72,6 +72,7 @@ class MainWindow(QMainWindow, form_class):
             print(fileType)
 
             pixmap = QPixmap(fileName)
+            
             pixmap = pixmap.scaled(800, 500)
             #pixmap =pixmap.scaled(int(pixmap.width()/2),int(pixmap.height()/2))
             #self.canvas_widget = QImage(fileName).scaled(120,120)
